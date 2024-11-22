@@ -1,6 +1,16 @@
 import React, { Component } from 'react'
+import './Navbar.css.';
 
 export class Navbar extends Component {
+
+  state = {
+    message: 'Welcome to Movio!',
+    name: 'Guest'
+  }
+
+  changeText = () => {
+    this.setState({ message: 'Welcome to Movio! Sign up now!' })
+  }
   render() {
     return (
       
