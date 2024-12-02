@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Navbar.css.';
+
 
 export class Navbar extends Component {
 
@@ -13,7 +13,7 @@ export class Navbar extends Component {
   }
   render() {
     return (
-      
+       
         <nav className="navbar">
           <div className="logo">MOVIO</div>
           <ul className="nav-links">
